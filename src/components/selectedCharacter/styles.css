@@ -1,0 +1,92 @@
+.rootSelectedChar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.selectedCharImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.selectedCharImg:hover {
+
+}
+.averageScore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+}
+.remove{
+  background-color: #217AFF;
+  opacity: 0.5;
+  width: 80px;
+  height: 80px;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.imgContain {
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 25px 10px;
+  width: 80px;
+  height: 80px;
+  border: 1px solid #217AFF;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.selectedCharImg:hover .middle{
+  background: rgba(33, 122, 255, 0.6);
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #fff;
+}
+.averageBox {
+  margin: 0px 10px;
+  height: 77px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.averageBox h3{
+  font-size: 16px;
+}
+.averageBox span{
+  font-size: 24px;
+  font-weight: 700;
+}
+.label{
+  font-size: 12px;
+  font-weight: 400;
+  text-align: left;
+  width: 400px;
+  margin-bottom: 37px;
+}
+.bar {
+  width: 1px;
+  height: 100px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 51.04%, rgba(0, 0, 0, 0) 100%);
+}

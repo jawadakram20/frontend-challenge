@@ -1,0 +1,51 @@
+.rootTags{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 93%;
+    margin: auto;
+    flex-wrap: wrap;
+    margin-bottom: 57px;
+}
+.tag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid #217AFF;
+    margin: 7px 7px;
+    padding: 5px 19px;
+    color: #217AFF;
+    border-radius: 18px;
+    background: white;
+    text-transform: capitalize;
+    font-weight: 400;
+    cursor: pointer;
+}
+.selectedtag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid #217AFF;
+    margin: 7px 7px;
+    padding: 5px 19px;
+    background-color: #217AFF;
+    border-radius: 18px;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 400;
+    cursor: pointer;
+}
+.clearAll {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-decoration-line: underline;
+  color: #999999;
+  cursor: pointer;
+}
+.clearAll:hover {
+  opacity: 0.8;
+}

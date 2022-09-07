@@ -122,3 +122,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Developer Notes
+1- We can implement pagination for listing
+2- Make whole row selectable
+3- We can make tags column clickable so user can apply filters directly from row.
+4- Enable sorting with headers
+5- Make my team filter more prominent for ease of user.
+6- Make filters limit for selection and should show results combing all of them.

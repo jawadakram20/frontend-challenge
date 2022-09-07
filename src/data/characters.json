@@ -1,45 +1,5 @@
 [
   {
-    "name": "Baraka",
-    "quote": "Speak. You've earned the chance.",
-    "image": "https://cdn.dashfight.com/bd01b2a8bd722115906568ebd31bb7d2dd4baa44.png",
-    "abilities": [
-      {
-        "abilityName": "Mobility",
-        "abilityScore": 2
-      },
-      {
-        "abilityName": "Technique",
-        "abilityScore": 3
-      },
-      {
-        "abilityName": "Survivability",
-        "abilityScore": 5
-      },
-      {
-        "abilityName": "Power",
-        "abilityScore": 10
-      },
-      {
-        "abilityName": "Energy",
-        "abilityScore": 6
-      }
-    ],
-    "thumbnail": "https://media.eventhubs.com/images/characters/mk11/baraka.png",
-    "universe": "Mortal Kombat",
-    "tags": [
-      {
-        "slot": 1,
-        "tag_name": "monster"
-      },
-      {
-        "slot": 2,
-        "tag_name": "melee"
-      }
-    ],
-    "id": 208
-  },
-  {
     "name": "Cassie Cage",
     "quote": "\"Who's a good girl?\"",
     "image": "https://cdn.dashfight.com/728b2c886100977000e196f40af079fbe68bb73b.png",
@@ -8742,5 +8702,45 @@
       }
     ],
     "id": 207
+  },
+  {
+    "name": "Baraka",
+    "quote": "Speak. You've earned the chance.",
+    "image": "https://cdn.dashfight.com/bd01b2a8bd722115906568ebd31bb7d2dd4baa44.png",
+    "abilities": [
+      {
+        "abilityName": "Mobility",
+        "abilityScore": 2
+      },
+      {
+        "abilityName": "Technique",
+        "abilityScore": 3
+      },
+      {
+        "abilityName": "Survivability",
+        "abilityScore": 5
+      },
+      {
+        "abilityName": "Power",
+        "abilityScore": 10
+      },
+      {
+        "abilityName": "Energy",
+        "abilityScore": 6
+      }
+    ],
+    "thumbnail": "https://media.eventhubs.com/images/characters/mk11/baraka.png",
+    "universe": "Mortal Kombat",
+    "tags": [
+      {
+        "slot": 1,
+        "tag_name": "monster"
+      },
+      {
+        "slot": 2,
+        "tag_name": "melee"
+      }
+    ],
+    "id": 208
   }
 ]
